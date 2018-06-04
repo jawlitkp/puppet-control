@@ -9,6 +9,3 @@ mod 'puppet-r10k',
 mod 'git',
   :git    => 'https://github.com/jawlitkp/puppetlabs-git.git',
   :branch => 'master'
-mod 'git',
-  :git    => 'https://github.com/jawlitkp/puppetlabs-activemq.git',
-  :branch => 'master'
