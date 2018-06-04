@@ -7,3 +7,6 @@ mod 'puppetlabs/apache', :latest
 mod 'puppet-r10k',
   :git    => 'https://github.com/jawlitkp/puppet-r10k.git',
   :branch => 'master'
+mod 'git',
+  :git    => 'https://github.com/jawlitkp/puppet-puppetlabs-git',
+  :branch => 'master'
