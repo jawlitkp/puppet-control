@@ -1,5 +1,6 @@
 ## site.pp ##
-node default {
-  notify { "This is from puppet-master-1": }
-  include profile::puppetserver::master
+node 'puppetmom.bedbath.com' {
+  notify { "Catalog applying on puppetmom.bedbath.com.................": }
+  include profile::puppetserver::masterofmasters
+  notify { "Catalog applied on puppetmom.bedbath.com.................": }
 }
