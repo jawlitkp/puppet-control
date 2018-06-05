@@ -12,3 +12,6 @@ mod 'git',
 mod 'activemq',
   :git    => 'https://github.com/jawlitkp/puppetlabs-activemq.git',
   :branch => 'master'
+  mod 'mcollective',
+    :git    => 'https://github.com/jawlitkp/puppet-mcollective.git',
+    :branch => 'master'
