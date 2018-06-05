@@ -1,4 +1,4 @@
-class activemq {
+class profile::activemq::server {
 
   package { 'puppet-release-repo':
     ensure => latest,
