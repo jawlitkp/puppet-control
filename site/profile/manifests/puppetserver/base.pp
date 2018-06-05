@@ -4,7 +4,7 @@ class profile::puppetserver::base {
       remote => 'https://github.com/jawlitkp/puppet-control.git',
   }
   class  { 'activemq': }
-  class { 'mcollective':
+  class { '::mcollective':
     middleware_hosts          => [ 'puppetmom.beabath.com' ],
     middleware_user           => 'system',
     middleware_password       => 'manager',
