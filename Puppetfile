@@ -17,6 +17,9 @@ mod 'activemq',
 # mod 'mcollective',
 #   :git    => 'https://github.com/jawlitkp/puppet-mcollective.git',
 #   :branch => 'master'
-  mod 'consul',
-    :git    => 'https://github.com/jawlitkp/puppet-consul.git',
-    :branch => 'master'
+mod 'consul',
+  :git    => 'https://github.com/jawlitkp/puppet-consul.git',
+  :branch => 'master'
+mod 'postfix',
+  :git    => 'https://github.com/jawlitkp/puppet-postfix.git',
+  :branch => 'master'
